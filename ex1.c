@@ -1,5 +1,10 @@
 #include <stdio.h>
 int main(void) {
-  printf("hello world");
+  int i;
+  char z[11] = "hello world";
+  for (i = 0; i < 12; i++) {
+    printf("%c", z[i]);
+  }
+  printf("\n");
   return 0;
 }
