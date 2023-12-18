@@ -6,5 +6,6 @@ int main(void) {
     printf("%c", z[i]);
   }
   printf("\n");
+  printf("%d\n", i);
   return 0;
 }
